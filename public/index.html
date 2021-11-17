@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>An Example PWA</title>
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+  <link rel="stylesheet" href="/src/css/app.css">
+  <link rel="manifest" href="/manifest.json">
+  
+</head>
+<body>
+  <header class="main-header">
+    <h1>FAQ</h1>
+  </header>
+  <div class="card hidden" id="first_card" details="false">
+    <div class="card__content">
+      <p>What does PWA actually mean?</p>
+      
+    </div>
+    <div class="card__details">
+      <p>What does PWA actually mean?</p>
+      <ul>
+        <li>PWA, or Progressive Web Application is an application written in a web language (JavaScript + frameworks), which works as a native mobile or desktop application.</li>
+      </ul>
+      <p class="text_description"></p>
+    </div>
+  </div>
+  <div class="card hidden" id="second_card" details="false">
+    <div class="card__content">
+      <p>What are business benefits of PWA implementation?</p>
+    </div>
+    <div class="card__details">
+      <p>What are business benefits of PWA implementation?</p>
+      <ul>
+        <li>Cost optimization</li>
+        <li>Improved page performance</li>
+        <li>Increased user engagement</strong></li>
+      </ul>
+    </div>
+  </div>
+  <div class="card hidden" id="third_card" details="false">
+    <div class="card__content">
+      <p>What are the features of PWA?</p>
+    </div>
+    <div class="card__details" id="fourth_card" details="false">
+      <p>What are the features of PWA?</p>
+      <ul>
+        <li>Installable on <strong>Homescreen</strong></li>
+        <li><strong>Offline support</strong> with service workers</li>
+        <li>Usage of various <strong>caching strategies</strong></li>
+        <li>Web <strong>push notifications</strong></li>
+        <li><strong>Background sync</strong></li>
+        <li>Native device features like <strong>camera</strong></li>
+      </ul>
+    </div>
+  </div>
+
+  <div>
+    <img class="fit" src="/src/images/icons/pwa.png">
+  </div>
+<script src="/src/js/app.js"></script>
+</body>
+</html>
